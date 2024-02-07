@@ -1,0 +1,81 @@
+.list-group {
+    margin-right: 10px;
+}
+.small-header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+element.style {
+    text-align: right;
+}
+span.sublist-item {
+    margin-left: 20px;
+}
+div.col-2 {
+    text-align: center;
+}
+.buttons-collection {
+    text-align: right;
+}
+.header-button {
+    color:white; 
+    background-color: black; 
+    border: none;
+}
+#mod-btn {
+    color:white;
+    background-color: #c92724;
+}
+.header-text {
+    text-align: center;
+}
+.buttons-collection>button {
+    margin: 5px;
+    border: 1px solid;
+    border-color: #c7cdd1;
+    border-radius: 3px;
+    padding: 8px 14px;
+    line-height: 20px;
+}
+
+.wd-modules {
+    border-top: none;
+    background-color: transparent;
+    min-width: auto;
+    margin-bottom: 0;
+}
+
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+}
+
+.wd-modules>li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-modules>li>div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules>li>ul>li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-modules>li {
+    margin-bottom: 20px;
+}

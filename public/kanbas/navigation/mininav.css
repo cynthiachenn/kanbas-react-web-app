@@ -1,0 +1,19 @@
+.mini-nav {
+    color:red;
+    list-style-type: none;
+    text-decoration: none;
+}
+.mini-nav li {
+    margin-bottom: 20px;
+}
+.mini-nav a {
+    text-decoration: none;
+    color:red;
+    margin-left: 30px;
+}
+#modal-button {
+    border: none;
+}
+#modal-button:hover {
+    background-color: black;
+}

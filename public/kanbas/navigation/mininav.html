@@ -1,0 +1,114 @@
+<html>
+<header>
+    <link href="/libs/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="/Kanbas/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Modules/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Home/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Navigation/mininav.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</header>
+
+<body>
+    <div class="flex-fill">
+        <div class="d-block d-md-none">
+            <div class="small-header">
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <!-- Kanbas Nav Button -->
+                        <button type="button" id="modal-button" class="btn btn-primary header-button"
+                            data-toggle="modal" data-target="#kanbasNav">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="col-8">
+                        <div class="header-text">CS4550</div>
+                        <div class="header-text">Modules</div>
+                    </div>
+                    <div class="col-2">
+                        <!-- Course Nav Button -->
+                        <button class="header-button"><i class="fa fa-glasses"></i></button>
+                        <button type="button" id="modal-button" class="btn btn-primary header-button"
+                            data-toggle="modal" data-target="#courseNav"><i
+                                    class="fa fa-chevron-right fa-xs"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kanbas Modal Nav -->
+        <div class="modal fade" id="kanbasNav" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Kanbas Navigator</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="mini-nav">
+                            <li><i class="fa fa-tachometer-alt" style="color: red;"></i></i>
+                                <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
+                            </li>
+                            <li><i class="fa fa-user" style="color: slategray;"></i><a
+                                    href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+                            <li><i class="fa fa-book" style="color: red;"></i><a
+                                    href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+                            <li><i class="fa fa-calendar" style="color: red;"></i><a href="#">Calendar</a></li>
+                            <li><i class="fa fa-inbox" style="color: red;"></i><a href="#">Inbox</a></li>
+                            <li><i class="fa fa-clock" style="color: red;"></i><a href="#">History</a></li>
+                            <li><i class="fa fa-tv" style="color: red;"></i><a href="#">Studio</a></li>
+                            <li><i class="fa fa-arrow-circle-right" style="color: red;"></i><a href="#">Commons</a></li>
+                            <li><i class="fa fa-question-circle" style="color: red;"></i><a href="#">Help</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kanbas Modal Nav -->
+        <div class="modal fade" id="courseNav" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Course Navigator</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="mini-nav">
+                            <li>
+                                <a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                              <li>
+                                <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
+                              </li>
+                              <li><a href="http://piazza.com">Piazza</a></li>
+                              <li><a href="#">Zoom</a></li>
+                              <li>
+                                <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+                              </li>
+                              <li><a href="#">Quizzes</a></li>
+                              <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                              <li><a href="#">People</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

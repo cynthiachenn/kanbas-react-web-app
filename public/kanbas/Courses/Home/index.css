@@ -1,0 +1,69 @@
+.flex-grow-0.me-2.d-none.d-lg-block {
+    margin-left: 20px;
+}
+.flex-row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #c7cdd1;
+    margin: 0 24px;
+    min-height: 4.5rem;
+    box-sizing: border-box;
+}
+.class-name {
+    color:red;
+    font-size: large;
+    margin-left: 20px
+}
+.class-name > span {
+    color: black;
+}
+.course-header {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.course-header .btn {
+    float: right;
+    margin-top: -5px;
+    margin-right: 15px;
+}
+.fa-chevron-right {
+    color: gray; 
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.btn {
+    margin: 5px;
+    border: 1px solid;
+    border-color: #c7cdd1;
+    border-radius: 3px;
+    padding: 8px 14px;
+    line-height: 20px;
+}
+.course-status-header {
+    font-weight: bold;
+}
+.course-status-text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.course-status-text hr {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.course-status-text a {
+    text-decoration: none;
+    color: red;
+}
+.course-status-text p {
+    color: slategray;
+    font-size: small;
+}
+.course-btn {
+    text-align: left;
+    width: 240px;
+}
+.list-group-item a {
+    text-decoration: none;
+    color: red;
+}
