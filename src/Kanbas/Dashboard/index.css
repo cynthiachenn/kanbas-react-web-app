@@ -1,0 +1,27 @@
+.card {
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    width: 262px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 36px 0 0 36px;
+}
+.dashboard-header {
+    margin-left: 20px;
+}
+.courses-header {
+    margin-left: 36px;
+}
+.row {
+    margin-top: -20px;
+}
+.card-subtitle {
+    margin-top: 5px;
+    color:slategray;
+}
+.card-text {
+    color:slategray
+}

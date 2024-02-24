@@ -1,0 +1,15 @@
+.round-border {
+    font-size: smaller;
+    border: solid;
+    border-color: slategrey;
+    border-radius: 15px;
+    padding: 4px;
+    margin-right: 10px;
+}
+.list-group-item a {
+    text-decoration: none;
+    color: black;
+}
+.asgn-desc {
+    margin-left: 50px;
+}

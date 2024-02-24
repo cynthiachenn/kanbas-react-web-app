@@ -1,0 +1,42 @@
+.mini-nav {
+    color: red;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.mini-nav li {
+    margin-bottom: 20px;
+}
+
+.mini-nav a {
+    text-decoration: none;
+    color: red;
+    margin-left: 30px;
+}
+
+#modal-button {
+    border: none;
+}
+
+#modal-button:hover {
+    background-color: black;
+}
+
+#kanbas-modal-btn {
+    border: none;
+    background-color: black;
+    color: white;
+}
+#kanbas-modal-btn:hover {
+    background-color: black;
+}
+
+#course-modal-btn {
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: white;
+    background-color: black;
+    border: none;
+}
