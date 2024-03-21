@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import { courses } from "../../Kanbas/Database";
 import { Navigate, Route, Routes, useParams } from "react-router-dom";
 import { HiMiniBars3 } from "react-icons/hi2";
 import CourseNavigation from "./Navigation";
@@ -9,10 +8,9 @@ import "./Home/index.css"
 import Assignments from './Assignments';
 import { useLocation } from "react-router-dom";
 import { FaChevronRight, FaGlasses } from "react-icons/fa";
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const { courseId } = useParams();
-  const course = courses.find(
-    (course) => course._id === courseId);
+  const course = courses.find((course) => course._id === courseId);
   const { pathname } = useLocation();
   return (
     <div>

@@ -71,10 +71,12 @@ div.col-2 {
     border-left: 1px solid gray !important;
 }
 
-.wd-modules>li>ul>li {
+.submod {
     padding: 5px;
     border-top: 1px solid gray !important;
     border-left: 2px solid green;
+    list-style-type: none;
+    background-color: white;
 }
 
 .wd-modules>li {
